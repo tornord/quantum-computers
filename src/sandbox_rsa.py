@@ -88,7 +88,7 @@ print(f"Public key: (e={e}, n={n})")
 print(f"Private key: (d={d}, n={n})")
 print(f"Original message: {message}")
 print(f"Encrypted message: {ciphertext}")
-print(f"crypted message: {decrypted}")
+print(f"Descrypted message: {decrypted}")
 
 # Generate RSA key pair (2048 bits)
 private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
