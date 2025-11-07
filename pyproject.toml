@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "quantum-computers"
+version = "0.1.0"
+description = ""
+authors = ["tornord"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.13"
+dotenv = "^0.9.9"
+cryptography = "^46.0.3"
+ecdsa = "^0.19.1"
+sympy = "^1.14.0"
+
+[tool.poetry.dev-dependencies]
+black = "^25.0.0"
+flake8 = "^7.3.0"
+flake8-bugbear = "^25.0.0"
+isort = "^7.0.0"
+mockafka-py = "^0.2.0"
+pytest = "^8.4.2"
+pytest-asyncio = "^1.0.0"
+pytest-cov = "^7.0.0"
+
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | build
+  | \.venv
+  | _build
+  | buck-out
+  | dist
+  | profiling
+  | examples
+)/
+'''
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+filterwarnings = [
+    "ignore::UserWarning:numpy.*",
+    "ignore::DeprecationWarning:pydantic.*",
+    "ignore::DeprecationWarning:httpx.*"
+]
