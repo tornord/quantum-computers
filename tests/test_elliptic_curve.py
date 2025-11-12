@@ -8,6 +8,11 @@ def test_mod_inv():
     assert mod_inv(10, 17) == 12  # because 10*12 % 17 == 1
     assert mod_inv(2, 17) == 9  # because 2*9 % 17 == 1
 
+    # Python built-in
+    assert pow(3, -1, 11) == 4
+    assert pow(10, -1, 17) == 12
+    assert pow(2, -1, 17) == 9
+
 
 def test_elliptic_curve_1():
     # https://www.youtube.com/watch?v=Z6qLEFKDlz0
