@@ -137,7 +137,6 @@ def generate_toy_rsa_key(bits=16):
 
 if __name__ == "__main__":
 
-    
     # num = 97564666338969382484959738239287093658639323601456735454100666918150406305139
     # hex_value = hex(num)
     # print(hex_value)
