@@ -11,3 +11,11 @@ Några viktiga årtal för kvantfysiken
 - [2025](https://www.nobelprize.org/prizes/physics/2025/summary/)
 
 [John Bell](https://en.wikipedia.org/wiki/John_Stewart_Bell) hann inte få sitt pris 🥹
+
+## Cert-filer
+
+Visa med openssl:
+
+```
+openssl x509 -in ca.crt -text -noout
+```
