@@ -79,7 +79,7 @@ Några viktiga årtal för kvantfysiken
 - RSA, modulo upphöjt i
 - Elliptisk kurva
 - Diffie Hellman
-- Discrete logarithm problem
+- Discrete logarithm problem [DLP](https://fse.studenttheses.ub.rug.nl/22792/1/bMATH_2020_HofmanSJ.pdf)
 
 Find p such that: g^p mod N = 1
 
