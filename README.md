@@ -53,7 +53,8 @@ Några viktiga årtal för kvantfysiken
 - Varför ser den ut som den gör?
 - Eliminering av termisk strålning, bakgrundsstrålning
 - Kylning
-- Mikrovågor för styrning
+- Mikrovågor & laser för styrning
+- Olika typer: Supraledande qubits, Trapped ions, Photonic qubits, Neutral atoms
 - Andra typer av kvantdatorer: Quantum annealer
 
 ## Kvantdator byggblock
