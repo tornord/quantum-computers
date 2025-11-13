@@ -1,0 +1,15 @@
+# Main dependencies
+dotenv==0.9.9
+cryptography==46.0.3
+ecdsa==0.19.1
+sympy==1.14.0
+
+# Development dependencies
+black==25.11.0
+flake8==7.3.0
+flake8-bugbear==25.10.21
+isort==7.0.0
+mockafka-py==0.2.0
+pytest==8.4.2
+pytest-asyncio==1.0.0
+pytest-cov==7.0.0
