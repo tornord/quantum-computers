@@ -69,9 +69,9 @@ Några viktiga årtal för kvantfysiken
 
 - Några 1000 radiorör
 - Viktigt med felhantering
-- Checkpoints
+- Checkpoints, spara undan beräkningar för att kunna backa vid ev. krasch
 - Checksummor
-- Felkorrigerande kod (Error Correction)
+- Felkorrigerande kod (Error Correction tex Hamming code)
 
 ## Kryptografi
 

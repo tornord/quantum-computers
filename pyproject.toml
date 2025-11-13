@@ -6,6 +6,15 @@ authors = ["tornord"]
 readme = "README.md"
 package-mode = false
 
+[[tool.poetry.source]]
+name = "artifactory-fifty"
+url = "https://artifactory.fifty.eu/artifactory/api/pypi/pypi/simple/"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "artifactory-trans"
+url = "https://artifactory-trans.svk.local:443/artifactory/api/pypi/data-science-general-pypi-test/simple"
+priority = "supplemental"
 
 [tool.poetry.dependencies]
 python = "^3.13"
