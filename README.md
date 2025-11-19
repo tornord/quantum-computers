@@ -14,8 +14,8 @@
 
 ## De första experimenten
 
-- Young's dubbelspalt
 - Newton Opticks "corpuscular"
+- Young's dubbelspalt
 - Svartkroppsstrålning
 - Fotoelektriska effekten
 - Stern Gerlach

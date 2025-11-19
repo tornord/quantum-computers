@@ -91,8 +91,8 @@ print(f"Descrypted message: {decrypted}")
 g = 17 #e
 p = find_p(g, n, 1)
 gp2 = pow(g, p // 2, n)
-res = (gcd(gp2 - 1, n), gcd(gp2 + 1, n))
-
+res = (gcd(gp2 + 1, n), gcd(gp2 - 1, n))
+print("q =", res[0], ", r =", res[1])
 
 # Generate RSA key pair (2048 bits)
 private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
