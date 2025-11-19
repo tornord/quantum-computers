@@ -12,6 +12,8 @@ from sympy import factorint, nextprime
 
 def mod_inverse(e, phi):
     # Extended Euclidean Algorithm
+    # Calculates the modulus inverse
+    # e*x mod phi = 1
     def extended_gcd(a, b):
         if b == 0:
             return (1, 0)
@@ -64,7 +66,7 @@ assert pow(e, phi // 2, n) == 1
 
 # Step 4: Compute d (modular inverse of e mod phi)
 d = mod_inverse(e, phi)
-
+print("d", d)
 
 def find_p(g, N, m=1):
     for i in range(2, N, 2):

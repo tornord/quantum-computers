@@ -8,8 +8,9 @@
 
 ## Scope
 
+- Vad betyder Q-day?
 - Hur kan kvantdatorer knäcka dagens krypto?
-- Hur ska vi skydda oss kvantdatorattacker?
+- Hur ska vi skydda oss från kvantdatorattacker?
 
 ## De första experimenten
 
