@@ -14,8 +14,8 @@
 
 ## De första experimenten
 
-- Newton Opticks "corpuscular"
 - Young's dubbelspalt
+- Newton Opticks "corpuscular"
 - Svartkroppsstrålning
 - Fotoelektriska effekten
 - Stern Gerlach
@@ -40,14 +40,9 @@ Några viktiga årtal för kvantfysiken
 
 [John Bell](https://en.wikipedia.org/wiki/John_Stewart_Bell) hann inte få sitt pris 🥹
 
-## Viktiga upptäckter och begrepp
+## Världen utan upptäkten av kvantfysik
 
-- Kvantobjekt (inte partikel, inte våg), tex foton, elektron, joner (atomer)
-- Bells teorem
-- Quantum Superposition (spin, energinivå, elektrisk laddning)
-- Quantum Entanglement, sammanflätning, nobelpris 2022
-- Quantum Measurement, superposition collapses
-- (Quantum Tunneling) nobelpris 2025
+Steampunk?
 
 ## Kvantdator
 
@@ -57,6 +52,15 @@ Några viktiga årtal för kvantfysiken
 - Mikrovågor & laser för styrning
 - Olika typer: Supraledande qubits, Trapped ions, Photonic qubits, Neutral atoms
 - Andra typer av kvantdatorer: Quantum annealer
+
+## Viktiga upptäckter och begrepp
+
+- Kvantobjekt (inte partikel, inte våg), tex foton, elektron, joner (atomer)
+- Bells teorem
+- Quantum Superposition (spin, energinivå, elektrisk laddning)
+- Quantum Measurement, superposition collapses
+- Quantum Entanglement, sammanflätning, nobelpris 2022
+- (Quantum Tunneling) nobelpris 2025
 
 ## Kvantdator byggblock
 
