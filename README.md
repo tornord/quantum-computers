@@ -8,6 +8,12 @@
 
 ## Scope
 
+### Del 1
+
+- Vad är en kvantdator?
+
+### Del 2
+
 - Vad betyder Q-day?
 - Hur kan kvantdatorer knäcka dagens krypto?
 - Hur ska vi skydda oss från kvantdatorattacker?
@@ -44,15 +50,6 @@ Några viktiga årtal för kvantfysiken
 
 Steampunk?
 
-## Kvantdator
-
-- Varför ser den ut som den gör?
-- Eliminering av termisk strålning, bakgrundsstrålning
-- Kylning
-- Mikrovågor & laser för styrning
-- Olika typer: Supraledande qubits, Trapped ions, Photonic qubits, Neutral atoms
-- Andra typer av kvantdatorer: Quantum annealer
-
 ## Viktiga upptäckter och begrepp
 
 - Kvantobjekt (inte partikel, inte våg), tex foton, elektron, joner (atomer)
@@ -61,6 +58,15 @@ Steampunk?
 - Quantum Measurement, superposition collapses
 - Quantum Entanglement, sammanflätning, nobelpris 2022
 - (Quantum Tunneling) nobelpris 2025
+
+## Kvantdator
+
+- Varför ser den ut som den gör?
+- Eliminering av termisk strålning, bakgrundsstrålning
+- Kylning
+- Mikrovågor & laser för styrning
+- Olika typer: Supraledande qubits, Trapped ions, Photonic qubits, Neutral atoms
+- Andra typer av kvantdatorer: Quantum annealer
 
 ## Kvantdator byggblock
 
