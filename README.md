@@ -57,7 +57,8 @@ Steampunk?
 - Quantum Superposition (spin, energinivå, elektrisk laddning)
 - Quantum Measurement, superposition collapses
 - Quantum Entanglement, sammanflätning, nobelpris 2022
-- (Quantum Tunneling) nobelpris 2025
+- Supraledning, nobelpris 1987
+- Quantum Tunneling, nobelpris 2025
 
 ## Kvantdator
 
