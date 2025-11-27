@@ -1,8 +1,9 @@
 from math import gcd
 
-from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.primitives import hashes, serialization
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from sympy import factorint, nextprime
+import numpy as np
 
 # def gcd(a, b):
 #     while b != 0:
@@ -40,8 +41,8 @@ def is_prime(n):
 
 
 # Step 1: Choose primes
-q = 5 #nextprime(210)
-r = 11 #nextprime(390)
+q = 5  # nextprime(210)
+r = 11  # nextprime(390)
 assert is_prime(q) and is_prime(r)
 
 # Step  Compute n and phi(n)
@@ -85,12 +86,15 @@ print(f"Encrypted message: {ciphertext}")
 print(f"Descrypted message: {decrypted}")
 
 
-# Crack the public key
-g = 17 #e
+# Crack the public ke
+g = 17  # e
 p = find_p(g, n, 1)
 gp2 = pow(g, p // 2, n)
 res = (gcd(gp2 + 1, n), gcd(gp2 - 1, n))
 print("q =", res[0], ", r =", res[1])
+arr = [pow(g, i, n) for i in range(0, 1024)]
+farr = np.fft.fft(arr)
+print("\n".join(["\t".join([str(i), str(arr[i]), str(int(abs(f)))]) for i, f in enumerate(farr)]))
 
 # Generate RSA key pair (2048 bits)
 private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
