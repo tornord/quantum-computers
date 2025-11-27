@@ -93,6 +93,9 @@ def get_peer_certificates(host: str, port: int = 443) -> list[x509.Certificate]:
     conn.connect((host, port))
 
     der_cert = conn.getpeercert(binary_form=True)
+    pem_cert = ssl.DER_cert_to_PEM_cert(der_cert)
+    with open("./ca.crt", "w") as f:
+        f.write(pem_cert)
     cert = x509.load_der_x509_certificate(der_cert, default_backend())
 
     # Note: Python's ssl module does not expose the full chain by default.
@@ -153,8 +156,9 @@ if __name__ == "__main__":
     # public_key = cert.public_key()
 
     domain = "svk.se"
-    x = get_leaf_certificate_unverified(domain)
-    # x = get_peer_certificates(domain)
+    # x = get_leaf_certificate_unverified(domain)
+    x = get_peer_certificates(domain)
+    pem_cert = ssl.DER_cert_to_PEM_cert(x[0])
     # certificates = fetch_certificates(domain)
     p = parse_certificate_text_2(x)
     print(p)

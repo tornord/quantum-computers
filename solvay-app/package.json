@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest --run",
-    "server": "node --import=tsx/esm server/index.ts"
+    "server": "node --import=tsx/esm server/index.ts",
+    "solvay": "npm set strict-ssl false && npx http-server dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

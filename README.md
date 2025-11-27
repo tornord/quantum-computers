@@ -8,13 +8,20 @@
 
 ## Scope
 
+### Del 1
+
+- Vad är en kvantdator?
+
+### Del 2
+
+- Vad betyder Q-day?
 - Hur kan kvantdatorer knäcka dagens krypto?
-- Hur ska vi skydda oss kvantdatorattacker?
+- Hur ska vi skydda oss från kvantdatorattacker?
 
 ## De första experimenten
 
-- Newton Opticks "corpuscular"
 - Young's dubbelspalt
+- Newton Opticks "corpuscular"
 - Svartkroppsstrålning
 - Fotoelektriska effekten
 - Stern Gerlach
@@ -39,14 +46,19 @@ Några viktiga årtal för kvantfysiken
 
 [John Bell](https://en.wikipedia.org/wiki/John_Stewart_Bell) hann inte få sitt pris 🥹
 
+## Världen utan upptäkten av kvantfysik
+
+Steampunk?
+
 ## Viktiga upptäckter och begrepp
 
 - Kvantobjekt (inte partikel, inte våg), tex foton, elektron, joner (atomer)
 - Bells teorem
 - Quantum Superposition (spin, energinivå, elektrisk laddning)
-- Quantum Entanglement, sammanflätning, nobelpris 2022
 - Quantum Measurement, superposition collapses
-- (Quantum Tunneling) nobelpris 2025
+- Quantum Entanglement, sammanflätning, nobelpris 2022
+- Supraledning, nobelpris 1987
+- Quantum Tunneling, nobelpris 2025
 
 ## Kvantdator
 
