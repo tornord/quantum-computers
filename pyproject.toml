@@ -65,5 +65,6 @@ pythonpath = "."
 filterwarnings = [
     "ignore::UserWarning:numpy.*",
     "ignore::DeprecationWarning:pydantic.*",
-    "ignore::DeprecationWarning:httpx.*"
+    "ignore::DeprecationWarning:httpx.*",
+    "ignore::CryptographyDeprecationWarning.*"
 ]
