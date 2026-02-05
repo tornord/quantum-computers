@@ -41,6 +41,7 @@ Några viktiga årtal för kvantfysiken
 - [1932](https://www.nobelprize.org/prizes/physics/1932/summary/)
 - [1933](https://www.nobelprize.org/prizes/physics/1933/summary/)
 - [1965](https://www.nobelprize.org/prizes/physics/1965/summary/)
+- [1987](https://www.nobelprize.org/prizes/physics/1987/summary/)
 - [2022](https://www.nobelprize.org/prizes/physics/2022/summary/)
 - [2025](https://www.nobelprize.org/prizes/physics/2025/summary/)
 
@@ -102,13 +103,13 @@ Om N = r * q
 
 och du hittar p genom DLP, då är
 
-(g^p -1) = (g^(p/2) - 1)*(g^(p/2) + 1) = m*N
+$$ g^p-1 = (g^{p/2}-1)(g^{p/2}+1) = kN $$
 
 Och 
 
-r = gcd(g^(p/2) - 1, N)
+$$ r = \gcd(g^{p/2}-1, N) $$
 
-q = gcd(g^(p/2) + 1, N)
+$$ q = \gcd(g^{p/2}+1, N) $$
 
 ## Beräkningar
 
