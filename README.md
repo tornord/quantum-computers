@@ -4,7 +4,7 @@
 - [When will the cracking begin?](https://www.youtube.com/watch?v=OkVYJx1iLNs)
 - [Ekerå, KTH](https://www.kth.se/om/nyheter/centrala-nyheter/forskar-om-att-framtidssakra-internet-1.1366813)
 2030 har vi kvantdatorer som knäcker dagens krypto
-- ["Chinese Scientists Hacked ..."](https://www.infosecglobal.com/news/chinese-scientists-allegedly-quantum-hack-military-grade-encryption-with-quantum-computer)
+- ["Chinese Scientists Report Using Quantum Computer"](https://thequantuminsider.com/2024/10/11/chinese-scientists-report-using-quantum-computer-to-hack-military-grade-encryption/)
 
 ## Scope
 
@@ -41,7 +41,6 @@ Några viktiga årtal för kvantfysiken
 - [1932](https://www.nobelprize.org/prizes/physics/1932/summary/)
 - [1933](https://www.nobelprize.org/prizes/physics/1933/summary/)
 - [1965](https://www.nobelprize.org/prizes/physics/1965/summary/)
-- [1987](https://www.nobelprize.org/prizes/physics/1987/summary/)
 - [2022](https://www.nobelprize.org/prizes/physics/2022/summary/)
 - [2025](https://www.nobelprize.org/prizes/physics/2025/summary/)
 
